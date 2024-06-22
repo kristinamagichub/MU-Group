@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-primary-color: #252323;
+  --text-secondary-color: #4b4b4b;
+  --divider-color: #d8d8d8;
+  --divider-color-sec: #eef0f2;
+  --cta-color: #3366ff;
+  --cta-hover-color: #2b57d9;
+  --accent-color: #f8d57e;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+/* .inter-font > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */

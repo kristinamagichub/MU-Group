@@ -1,0 +1,19 @@
+.header {
+  /* padding: 24px 88px; */
+
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo {
+  margin: 24px 0;
+  display: block;
+  width: 144px;
+  height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .company-logo {
+    margin: 32px 0;
+  }
+}
