@@ -1,15 +1,11 @@
 .products__section {
   padding-right: 25px;
   padding-top: 24px;
-  /* padding-bottom: 24px; */
 }
 
 .products__title {
   margin: 0;
   margin-bottom: 16px;
-  /* font-weight: 600;
-  font-size: 22px;*/
-  /* line-height: 28.6px; */
   font-size: 1.375rem;
   line-height: 1.3;
   color: var(--text-primary-color);
@@ -36,7 +32,6 @@
   }
 
   .products__title {
-    /* 26px */
     font-size: 1.625rem;
   }
 }

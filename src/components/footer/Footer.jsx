@@ -13,7 +13,7 @@ export function Footer({}) {
             <img
               src={InstagramIcon}
               alt="instagram-icon"
-              // className="footer__social-link-icon"
+              className="footer__social-link-icon"
             />
           </a>
           <a href="#" target="_blank">

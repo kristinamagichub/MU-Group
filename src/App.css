@@ -32,7 +32,6 @@
 .h-3 {
   font-weight: 600;
   /* font-size: 18px; */
-  /* font-size: 1.286rem; */
   font-size: 1.125rem;
 }
 @media screen and (min-width: 1024px) {
@@ -67,11 +66,6 @@
     font-size: 1rem;
   }
 }
-/* .txt-1-desctop {
-  font-size: 14px;
-  font-size: 0.875rem;
- 
-} */
 
 .txt-2 {
   font-weight: 400;

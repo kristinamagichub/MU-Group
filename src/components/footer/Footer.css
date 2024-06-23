@@ -15,7 +15,6 @@
 
 .footer__description {
   margin: 24px 0;
-  /* font-size: 14px; */
   font-size: 0.875rem;
   line-height: 1.5;
   color: var(--text-secondary-color);
@@ -27,9 +26,6 @@
 }
 
 .footer__link {
-  /* font-weight: 400;
-  font-size: 11px;
-  line-height: 16.5px; */
   font-size: 0.688rem;
   line-height: 1.5;
   text-decoration: none;
@@ -41,10 +37,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .footer {
-    padding: 32px 0;
-  } */
-
   .footer__social-block {
     margin: 0;
   }
@@ -68,7 +60,6 @@
   }
 
   .footer__social-links {
-    /* margin: 0 170px; */
     margin: 0 158px;
     justify-content: space-between;
   }

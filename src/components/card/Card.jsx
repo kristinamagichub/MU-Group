@@ -17,9 +17,6 @@ export function Card({ title, description, link, bgColor, imgSrc }) {
       <div className="card__content">
         <h3 className="card__title h-3 card__title-desctop">{title}</h3>
         <p className="card__description ">{description}</p>
-        {/* <a href={link} target="_blank" className="card__link">
-        Read more
-      </a> */}
 
         <a href={link} target="_blank" className="card__link">
           Read more
