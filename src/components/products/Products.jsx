@@ -36,18 +36,21 @@ const ProductList = [
 
 export function Products({}) {
   return (
-    <section className="products__section">
+    <section className="products__section container">
       <h2 className="products__title h1">Our products</h2>
       <div className="cards__container">
-        {ProductList.map(({ id, title, description, link, bgColor }) => (
-          <Card
-            key={id}
-            title={title}
-            description={description}
-            link={link}
-            bgColor={bgColor}
-          />
-        ))}
+        {ProductList.map(
+          ({ id, title, description, link, bgColor, imgSrc }) => (
+            <Card
+              key={id}
+              title={title}
+              description={description}
+              link={link}
+              bgColor={bgColor}
+              imgSrc={imgSrc}
+            />
+          )
+        )}
       </div>
     </section>
   );

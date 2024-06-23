@@ -6,7 +6,7 @@ import FacebookIcon from "../../assets/facebook-icon.svg";
 
 export function Footer({}) {
   return (
-    <section className="footer">
+    <section className="footer container">
       <div className="footer__social-block">
         <div className="footer__social-links">
           <a href="#" target="_blank">

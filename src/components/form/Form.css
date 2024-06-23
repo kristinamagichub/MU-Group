@@ -27,6 +27,14 @@
   color: #3b3b3b;
 }
 
+.form__input:active {
+  border: 1px solid blue;
+}
+
+.form__input:invalid {
+  border: 1px solid red;
+}
+
 .form__button {
   /* padding: 0px 24px; */
   padding: 11px 24px;
@@ -47,7 +55,7 @@
   max-height: 15px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 462px) {
   .form__container {
     margin: 0 auto;
     flex-direction: row;

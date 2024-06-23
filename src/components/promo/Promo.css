@@ -1,5 +1,9 @@
 .promo__container {
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.bg-divider {
   background-color: var(--divider-color-sec);
 }
 
@@ -41,7 +45,8 @@
 
 @media screen and (min-width: 1024px) {
   .promo__container {
-    padding: 40px 192px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .promo__description {
@@ -51,14 +56,14 @@
     line-height: 1.5;
   }
 
-  .promo__description-desktop {
-    /* font-size: 14px;
+  /* .promo__description-desktop { */
+  /* font-size: 14px;
     line-height: 21px; */
-    font-size: 0.875rem;
-    line-height: 1.5;
-  }
 
-  .promo__img {
-    /* object-position: initial; */
-  }
+  /* font-size: 0.875rem;
+    line-height: 1.5;
+  } */
+
+  /* .promo__img {
+  } */
 }
