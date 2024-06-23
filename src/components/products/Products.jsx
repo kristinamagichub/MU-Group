@@ -6,7 +6,7 @@ const ProductList = [
     id: 0,
     title: "Ultimate Guitar",
     description:
-      "The best platform for music makers to play songs they love. Home to the world's largest music community.",
+      "The best platform for music makers to play songs they\u00A0love. Home to the world's largest music community.",
     link: "#",
     bgColor: "#FFC800",
   },
@@ -14,7 +14,7 @@ const ProductList = [
     id: 1,
     title: "MuseScore",
     description:
-      "Create, play back, and print sheet music with free open source notation software.",
+      "Create, play back, and print sheet\u00A0music\u00A0with\u00A0free\u00A0open source\u00A0notation software.",
     link: "#",
     bgColor: "#2E68C0",
   },

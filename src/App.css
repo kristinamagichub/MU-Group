@@ -66,11 +66,12 @@
     /* font-size: 16px; */
     font-size: 1rem;
   }
-  .txt-1-desctop {
-    font-size: 14px;
-    /*  */
-  }
 }
+/* .txt-1-desctop {
+  font-size: 14px;
+  font-size: 0.875rem;
+ 
+} */
 
 .txt-2 {
   font-weight: 400;

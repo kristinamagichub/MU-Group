@@ -13,7 +13,7 @@ export function Promo({}) {
           ever-evolving field of frontend development.
         </p>
         <img src={promoImg} alt="Page picture" className="promo__img" />
-        <p className="promo__description txt-1 txt-1-desctop">
+        <p className="promo__description txt-1 promo__description-desctop">
           Are you ready to turn your passion for technology into a thriving
           career?
         </p>

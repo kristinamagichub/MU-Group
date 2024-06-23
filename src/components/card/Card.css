@@ -17,6 +17,7 @@
 
 .card__content {
   margin: 16px;
+  margin-right: 15px;
   text-align: left;
   /* display: flex;
   flex-direction: column; */
@@ -24,23 +25,23 @@
 
 .card__title {
   margin: 0;
-
   line-height: 1.29;
   color: var(--text-primary-color);
 }
 
 .card__description {
   margin: 8px 0 21px;
-  /* display: flex; */
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   line-height: 1.5;
   height: 72px;
   max-width: 282px;
-  /* overflow: hidden;
-  text-overflow: ellipsis; */
 
-  text-overflow: ellipsis;
-  white-space: normal;
-  overflow: hidden;
+  /* text-overflow: ellipsis; */
+
   color: var(--text-secondary-color);
 }
 
@@ -72,12 +73,12 @@
   stroke: var(--cta-hover-color);
 }
 
-/* .card__link:active {
-  color: #fff;
-} */
+.card__arrow {
+  align-self: center;
+}
 
-/* .card__arrow {
-} */
-/* .card__link {
-
-} */
+@media screen and (min-width: 1024px) {
+  .card__title-desctop {
+    font-size: 1.125rem;
+  }
+}

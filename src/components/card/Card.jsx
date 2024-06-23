@@ -15,7 +15,7 @@ export function Card({ title, description, link, bgColor, imgSrc }) {
       )}
 
       <div className="card__content">
-        <h3 className="card__title h-3">{title}</h3>
+        <h3 className="card__title h-3 card__title-desctop">{title}</h3>
         <p className="card__description ">{description}</p>
         {/* <a href={link} target="_blank" className="card__link">
         Read more
@@ -35,9 +35,9 @@ export function Card({ title, description, link, bgColor, imgSrc }) {
             <path
               d="M1.25 1.125L5.625 5.5L1.25 9.875"
               stroke="#3366FF"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </a>
