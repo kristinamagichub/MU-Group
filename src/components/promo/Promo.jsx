@@ -4,7 +4,7 @@ import promoImg from "../../assets/hero-image.webp";
 
 export function Promo({}) {
   return (
-    <div className="bg-divider">
+    <section className="bg-divider">
       <div className="promo__container container">
         <h1 className="promo__title h-1">Muse Group Frontend Academy</h1>
         <p className="promo__description txt-1">
@@ -19,7 +19,7 @@ export function Promo({}) {
         </p>
         <Form />
       </div>
-    </div>
+    </section>
   );
 }
 

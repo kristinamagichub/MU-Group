@@ -6,7 +6,7 @@ import FacebookIcon from "../../assets/facebook-icon.svg";
 
 export function Footer({}) {
   return (
-    <section className="footer container">
+    <footer className="footer container">
       <div className="footer__social-block">
         <div className="footer__social-links">
           <a href="#" target="_blank">
@@ -72,7 +72,7 @@ export function Footer({}) {
           Terms of Service
         </a>
       </div>
-    </section>
+    </footer>
   );
 }
 
